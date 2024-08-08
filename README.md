@@ -17,6 +17,7 @@ Select [this link](https://aws.amazon.com/bedrock/claude) to learn more about th
 # Settings - options
 While running the app, you can do the following:
 - Change the selected model
+- Choose streaming (real time) or non-streaming (wait for it, get it all at once) mode for the model responses
 - Set custom model paramters:
     - Temperature
     - Top K
