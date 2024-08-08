@@ -2,7 +2,7 @@
 A useful but simple chatbot utilizing Anthropic Claude models on AWS Bedrock.
 
 This app was developed entirely using Anthropic Claude 3.5 Sonnet. It began with a simple prompt: 
-> let's develop a python streamlit app that uses boto3 to utilze aws bedrock models.
+> let's develop a python streamlit app that uses boto3 to utilize aws bedrock models.
 
 Currently, three of the leading Anthropic models are included as options the user can choose:
 - Claude 3.5 Sonnet
