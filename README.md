@@ -27,6 +27,11 @@ While running the app, you can do the following:
 - Create and use a **Custom system prompt** to test out various prompt techniques to tailor the bot for your use.
 - Clear chat history.
 
+# User experience
+A few keyboard control options to know while using the app:
+- You can add new lines to the input prompt by using **Shift + Enter** (aka a soft return). When you press Enter alone, it will submit the input field to the model for evaluation.
+- You can add a Custom System Prompt by selecting Custom from the options. In the text field, you will use **Control + Enter** to submit, to make the new prompt live.
+
 # Running the app
 A Dockerfile is included for reference on how to build the image to run in Docker or to deploy as a container.
 
