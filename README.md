@@ -74,3 +74,6 @@ You could instead use LangChain, for example.
 ```
 from langchain_aws import ChatBedrockConverse
 ```
+
+# Application screenshot
+![Screenshot of the Streamlit Chatbot Application](https://github.com/user-attachments/assets/ce0d3e28-8a46-4536-bf3e-25eb12f709b4)
