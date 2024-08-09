@@ -4,13 +4,20 @@ A useful but simple chatbot utilizing Anthropic Claude models on AWS Bedrock.
 This app was developed entirely using Anthropic Claude 3.5 Sonnet. It began with a simple prompt: 
 > let's develop a python streamlit app that uses boto3 to utilize aws bedrock models.
 
-Currently, three of the leading Anthropic models are included as options the user can choose:
+These Anthropic Claude models are included as options the user can choose:
 - Claude 3.5 Sonnet
-  - Claude 3.5 Sonnet is comparable to ChatGPT 4o.
+  - model id: anthropic.claude-3-5-sonnet-20240620-v1:0
+  - This model is comparable to ChatGPT 4o
 - Claude 3 Haiku
+  - model id: anthropic.claude-3-haiku-20240307-v1:0
+- Claude 3 Sonnet
+  - model id: anthropic.claude-3-sonnet-20240229-v1:0
+- Claude 2.1
+  - model id: anthropic.claude-v2:1
+- Claude 2.0
+  - model id: anthropic.claude-v2
 - Claude Instant
-
-The other Anthropic models are easy to include. Simply add them as options in main.py. 
+  - model id: anthropic.claude-instant-v1
 
 Select [this link](https://aws.amazon.com/bedrock/claude) to learn more about the Anthropic models on Bedrock.
 
