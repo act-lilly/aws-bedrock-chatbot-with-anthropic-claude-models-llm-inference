@@ -50,8 +50,11 @@ SYSTEM_PROMPTS = {
 # Model options
 MODEL_OPTIONS = {
     "Claude 3.5 Sonnet": "anthropic.claude-3-5-sonnet-20240620-v1:0",
-    "Claude 3 Haiku": "anthropic.claude-3-haiku-20240307-v1:0",
-    "Claude Instant": "anthropic.claude-instant-v1"
+    "Claude 3 Haiku":    "anthropic.claude-3-haiku-20240307-v1:0",    
+    "Claude 3 Sonnet":   "anthropic.claude-3-sonnet-20240229-v1:0",
+    "Claude 2.1":        "anthropic.claude-v2:1",
+    "Claude 2.0":        "anthropic.claude-v2",
+    "Claude Instant":    "anthropic.claude-instant-v1"
 }
 
 # Initialize system_prompt in session state if it doesn't exist
